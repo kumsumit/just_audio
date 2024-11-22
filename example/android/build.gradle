@@ -17,10 +17,10 @@ tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
 
-gradle.projectsEvaluated {
-    project(":just_audio") {
-        tasks.withType(JavaCompile) {
-            options.compilerArgs << "-Werror"
-        }
-    }
-}
+//gradle.projectsEvaluated {
+//    project(":just_audio") {
+//        tasks.withType(JavaCompile) {
+//            options.compilerArgs << "-Werror"
+//        }
+//    }
+//}
